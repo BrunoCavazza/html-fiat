@@ -1,0 +1,180 @@
+
+body {
+    margin: 0;
+}
+
+p {
+    margin-right: 40px;
+}
+
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.textbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+}
+
+.opcion-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: #ccc;
+}
+
+#barra-superior{
+    border-bottom: 1px solid gray; 
+    display: flex; 
+    padding: 10px 100px; 
+    justify-content: space-between;  
+    background-color: #18131F; 
+}
+
+.header,.textbody {
+    font-size: small;
+    color: #18131F;
+}
+
+.favicon {
+    height: 25px;
+    margin: 25px;
+    margin-left:24px;
+}
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px ;
+    height: 32px;
+    border-width: 2px;
+    margin-right:24px;
+}
+
+#espacio-logo{
+    padding-top: 20px;
+    margin-left: 25%;
+}
+
+#opciones {
+    display: flex; 
+    align-items: center; 
+    margin-right: 15%;
+}
+
+#sumate-morado {
+    margin-left: 14px;
+    color:#6b53f0;
+    border-color: #6b53f0;
+}
+
+#impacto{
+    background-color: #201b24;
+    height: 400px;
+    width: 100%;
+    margin-top: 90px;
+    align-items: center; 
+}
+
+.impacto-font{
+    color: white;
+    font-size: small;
+}
+
+#impacto-texto{
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+#autos{
+    align-items: center; 
+    max-width: 80%;
+    
+}
+
+#cronos{
+    max-width: 40%;
+    margin-left: 10%;
+}
+
+#titulo-auto{
+    max-width: 60%;
+}
+
+#auto-principal{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#auto-derecha{
+    align-items: center; 
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#canvas{ 
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+    height: 300px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #ccc;
+}
+
+#texto-canvas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: #ccc;
+    padding-top: 20px;
+}
+#texto-consultas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: #201b24;
+    padding-top: 20px;
+}
+
+#consulta{ 
+    display: flex; 
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+    height: 400px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #ccc;
+}
+
+#enviar {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+    margin-left: 20px;
+}
